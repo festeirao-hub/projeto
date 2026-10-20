@@ -1,0 +1,8 @@
+Module
+  name: cura70
+  description: Exemplo — cura automatica abaixo de 70% HP (client aberto)
+  author: festeirao
+  sandboxed: true
+  scripts: [ cura70 ]
+  @onLoad: init()
+  @onUnload: terminate()
